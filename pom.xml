@@ -15,7 +15,12 @@
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.1.6.Final</version>
+        </dependency>
+  
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -24,6 +29,7 @@
         </dependency>
 
     </dependencies>
+
 
 
 </project>
